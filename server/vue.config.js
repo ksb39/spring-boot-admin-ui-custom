@@ -18,7 +18,7 @@ module.exports = {
   outputDir: 'target/dist',
   chainWebpack: config => {
     config.entryPoints.delete('app');
-    config.entry('custom').add('./src/index.js');
+    config.entry('custom').add('./src/ui/index.js');
     config.externals({
       vue: {
         commonjs: 'vue',
