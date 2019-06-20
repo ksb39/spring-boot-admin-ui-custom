@@ -9,6 +9,7 @@ https://github.com/codecentric/spring-boot-admin/tree/master/spring-boot-admin-s
 npm install
 npm run build
 
+npm run watch
 
 
 
