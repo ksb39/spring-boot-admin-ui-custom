@@ -15,7 +15,10 @@
   -->
 
 <template>
-  <pre v-text="stringify(applications, null, 4)"/>
+  <div>
+    <h3>custom</h3>
+    <pre v-text="stringify(applications, null, 4)"/>
+  </div>
 </template>
 
 <script>
