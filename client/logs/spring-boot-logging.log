@@ -1,0 +1,58 @@
+2019-06-20 13:42:26.221 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-I4PIC4R with PID 211536 (C:\dev\git\spring-boot-admin-ui-custom\client\build\classes\java\main started by Administrator in C:\dev\git\spring-boot-admin-ui-custom\client)
+2019-06-20 13:42:26.224 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-20 13:42:27.091 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 13:42:27.108 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-06-20 13:42:27.562 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78d3c606] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 13:42:28.045 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+2019-06-20 13:42:28.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+2019-06-20 13:42:28.078 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-20 13:42:28.078 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 13:42:28.237 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-20 13:42:28.237 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1976 ms
+2019-06-20 13:42:28.645 [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-06-20 13:42:28.719 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-20 13:42:28.861 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-20 13:42:28.927 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 13:42:29.005 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 13:42:29.007 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-06-20 13:42:29.142 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 13:42:29.261 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 13:42:29.508 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7d2c9361'
+2019-06-20 13:42:29.511 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 13:42:29.782 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 13:42:29.835 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 13:42:30.073 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-06-20 13:42:30.220 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-06-20 13:42:30.241 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2019-06-20 13:42:30.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:42:30
+2019-06-20 13:42:30.293 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+2019-06-20 13:42:30.318 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+2019-06-20 13:42:30.320 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.607 seconds (JVM running for 4.967)
+2019-06-20 13:42:30.916 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 8965ae9e2966
+2019-06-20 13:42:30.994 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 13:42:30.995 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-06-20 13:42:31.005 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-06-20 13:42:35.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:42:35
+2019-06-20 13:42:40.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:42:40
+2019-06-20 13:42:45.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:42:45
+2019-06-20 13:42:50.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:42:50
+2019-06-20 13:42:55.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:42:55
+2019-06-20 13:43:00.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:00
+2019-06-20 13:43:05.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:05
+2019-06-20 13:43:10.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:10
+2019-06-20 13:43:15.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:15
+2019-06-20 13:43:20.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:20
+2019-06-20 13:43:21.339 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Demo Service, managementUrl=http://10.0.75.1:9898/actuator, healthUrl=http://10.0.75.1:9898/actuator/health, serviceUrl=http://10.0.75.1:9898/) at spring-boot-admin ([http://localhost:8989/instances]): I/O error on POST request for "http://localhost:8989/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-06-20 13:43:25.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:25
+2019-06-20 13:43:30.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:30
+2019-06-20 13:43:35.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:35
+2019-06-20 13:43:40.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:40
+2019-06-20 13:43:45.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:45
+2019-06-20 13:43:50.292 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:50
+2019-06-20 13:43:55.294 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:43:55
+2019-06-20 13:44:00.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:00
+2019-06-20 13:44:05.294 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:05
+2019-06-20 13:44:10.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:10
+2019-06-20 13:44:15.294 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:15

@@ -1,0 +1,6 @@
+server:
+  port: 8989
+
+spring.boot.admin.ui.cache.no-cache: true
+spring.boot.admin.ui.extension-resource-locations: file:target/dist/
+spring.boot.admin.ui.cache-templates: false

@@ -1,0 +1,29 @@
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  boot:
+    admin:
+      client:
+        url: [http://localhost:8989]
+        instance:
+          prefer-ip: true
+  application:
+    name: Demo Service
+
+#info.hostname: ${InetAddress.localHost.hostName}
+
+server:
+  port: 9898
+
+logging:
+  config: classpath:logback-spring.xml
+#  config: classpath:logback-test.xml
+  file: ./logs/spring-boot-logging.log
+
