@@ -56,3 +56,587 @@
 2019-06-20 13:44:05.294 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:05
 2019-06-20 13:44:10.293 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:10
 2019-06-20 13:44:15.294 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 13:44:15
+2019-06-20 15:12:45.789 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-I4PIC4R with PID 114352 (C:\dev\git\spring-boot-admin-ui-custom\client\build\classes\java\main started by Administrator in C:\dev\git\spring-boot-admin-ui-custom\client)
+2019-06-20 15:12:45.792 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-20 15:12:46.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 15:12:46.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-06-20 15:12:47.429 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ebb6020] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 15:12:47.995 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+2019-06-20 15:12:48.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+2019-06-20 15:12:48.025 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-20 15:12:48.026 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 15:12:48.224 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-20 15:12:48.224 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2389 ms
+2019-06-20 15:12:48.705 [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-06-20 15:12:48.809 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-20 15:12:49.010 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-20 15:12:49.096 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 15:12:49.182 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 15:12:49.184 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-06-20 15:12:49.402 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 15:12:49.579 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 15:12:49.847 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@35145874'
+2019-06-20 15:12:49.850 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 15:12:50.152 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 15:12:50.214 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 15:12:50.490 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-06-20 15:12:50.646 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-06-20 15:12:50.669 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2019-06-20 15:12:50.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:12:50
+2019-06-20 15:12:50.748 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+2019-06-20 15:12:50.775 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+2019-06-20 15:12:50.778 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.525 seconds (JVM running for 5.918)
+2019-06-20 15:12:51.523 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 8965ae9e2966
+2019-06-20 15:12:51.597 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 15:12:51.597 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-06-20 15:12:51.606 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-06-20 15:12:55.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:12:55
+2019-06-20 15:13:00.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:00
+2019-06-20 15:13:05.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:05
+2019-06-20 15:13:10.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:10
+2019-06-20 15:13:15.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:15
+2019-06-20 15:13:20.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:20
+2019-06-20 15:13:25.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:25
+2019-06-20 15:13:30.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:30
+2019-06-20 15:13:35.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:35
+2019-06-20 15:13:40.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:40
+2019-06-20 15:13:45.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:45
+2019-06-20 15:13:50.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:50
+2019-06-20 15:13:55.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:13:55
+2019-06-20 15:14:00.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:00
+2019-06-20 15:14:05.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:05
+2019-06-20 15:14:10.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:10
+2019-06-20 15:14:15.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:15
+2019-06-20 15:14:20.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:20
+2019-06-20 15:14:25.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:25
+2019-06-20 15:14:30.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:30
+2019-06-20 15:14:35.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:35
+2019-06-20 15:14:40.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:40
+2019-06-20 15:14:45.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:45
+2019-06-20 15:14:50.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:50
+2019-06-20 15:14:55.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:14:55
+2019-06-20 15:15:00.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:00
+2019-06-20 15:15:05.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:05
+2019-06-20 15:15:10.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:10
+2019-06-20 15:15:15.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:15
+2019-06-20 15:15:20.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:20
+2019-06-20 15:15:25.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:25
+2019-06-20 15:15:30.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:30
+2019-06-20 15:15:35.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:35
+2019-06-20 15:15:40.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:40
+2019-06-20 15:15:45.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:45
+2019-06-20 15:15:45.809 [http-nio-9898-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - jolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed
+2019-06-20 15:15:50.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:50
+2019-06-20 15:15:55.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:15:55
+2019-06-20 15:16:00.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:00
+2019-06-20 15:16:05.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:05
+2019-06-20 15:16:10.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:10
+2019-06-20 15:16:15.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:15
+2019-06-20 15:16:20.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:20
+2019-06-20 15:16:25.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:25
+2019-06-20 15:16:30.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:30
+2019-06-20 15:16:35.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:35
+2019-06-20 15:16:40.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:40
+2019-06-20 15:16:45.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:45
+2019-06-20 15:16:50.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:50
+2019-06-20 15:16:55.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:16:55
+2019-06-20 15:17:00.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:00
+2019-06-20 15:17:05.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:05
+2019-06-20 15:17:10.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:10
+2019-06-20 15:17:15.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:15
+2019-06-20 15:17:20.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:20
+2019-06-20 15:17:25.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:25
+2019-06-20 15:17:30.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:30
+2019-06-20 15:17:35.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:35
+2019-06-20 15:17:40.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:40
+2019-06-20 15:17:45.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:45
+2019-06-20 15:17:50.748 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:50
+2019-06-20 15:17:55.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:17:55
+2019-06-20 15:18:00.746 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:18:00
+2019-06-20 15:18:05.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:18:05
+2019-06-20 15:18:10.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:18:10
+2019-06-20 15:18:15.747 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:18:15
+2019-06-20 15:45:51.575 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-I4PIC4R with PID 225900 (C:\dev\git\spring-boot-admin-ui-custom\client\build\classes\java\main started by Administrator in C:\dev\git\spring-boot-admin-ui-custom\client)
+2019-06-20 15:45:51.579 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-20 15:45:52.578 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 15:45:52.603 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-06-20 15:45:53.058 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2e2a97a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 15:45:53.595 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+2019-06-20 15:45:53.611 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+2019-06-20 15:45:53.624 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-20 15:45:53.624 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 15:45:53.834 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-20 15:45:53.834 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2204 ms
+2019-06-20 15:45:54.324 [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-06-20 15:45:54.409 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-20 15:45:54.546 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-20 15:45:54.608 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 15:45:54.678 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 15:45:54.680 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-06-20 15:45:54.871 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 15:45:55.111 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 15:45:55.385 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65262308'
+2019-06-20 15:45:55.388 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 15:45:55.725 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 15:45:55.824 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 15:45:56.294 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-06-20 15:45:56.467 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-06-20 15:45:56.492 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2019-06-20 15:45:56.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:45:56
+2019-06-20 15:45:56.572 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+2019-06-20 15:45:56.602 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+2019-06-20 15:45:56.605 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.544 seconds (JVM running for 5.891)
+2019-06-20 15:45:57.707 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 8965ae9e2966
+2019-06-20 15:45:57.769 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 15:45:57.769 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-06-20 15:45:57.781 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-06-20 15:46:01.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:01
+2019-06-20 15:46:06.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:06
+2019-06-20 15:46:11.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:11
+2019-06-20 15:46:16.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:16
+2019-06-20 15:46:21.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:21
+2019-06-20 15:46:26.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:26
+2019-06-20 15:46:31.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:31
+2019-06-20 15:46:36.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:36
+2019-06-20 15:46:41.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:41
+2019-06-20 15:46:46.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:46
+2019-06-20 15:46:51.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:51
+2019-06-20 15:46:56.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:46:56
+2019-06-20 15:47:01.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:01
+2019-06-20 15:47:06.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:06
+2019-06-20 15:47:11.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:11
+2019-06-20 15:47:16.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:16
+2019-06-20 15:47:21.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:21
+2019-06-20 15:47:26.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:26
+2019-06-20 15:47:31.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:31
+2019-06-20 15:47:36.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:36
+2019-06-20 15:47:41.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:41
+2019-06-20 15:47:46.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:46
+2019-06-20 15:47:51.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:51
+2019-06-20 15:47:56.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:47:56
+2019-06-20 15:48:01.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:01
+2019-06-20 15:48:06.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:06
+2019-06-20 15:48:11.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:11
+2019-06-20 15:48:16.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:16
+2019-06-20 15:48:17.632 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Demo Service, managementUrl=http://10.0.75.1:9898/actuator, healthUrl=http://10.0.75.1:9898/actuator/health, serviceUrl=http://10.0.75.1:9898/) at spring-boot-admin ([http://localhost:8989/instances]): I/O error on POST request for "http://localhost:8989/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-06-20 15:48:21.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:21
+2019-06-20 15:48:26.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:26
+2019-06-20 15:48:31.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:31
+2019-06-20 15:48:36.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:36
+2019-06-20 15:48:41.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:41
+2019-06-20 15:48:46.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:46
+2019-06-20 15:48:51.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:51
+2019-06-20 15:48:56.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:48:56
+2019-06-20 15:49:01.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:01
+2019-06-20 15:49:06.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:06
+2019-06-20 15:49:11.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:11
+2019-06-20 15:49:16.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:16
+2019-06-20 15:49:21.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:21
+2019-06-20 15:49:26.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:26
+2019-06-20 15:49:31.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:31
+2019-06-20 15:49:36.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:36
+2019-06-20 15:49:41.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:41
+2019-06-20 15:49:46.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:46
+2019-06-20 15:49:51.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:51
+2019-06-20 15:49:56.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:49:56
+2019-06-20 15:50:01.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:01
+2019-06-20 15:50:06.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:06
+2019-06-20 15:50:11.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:11
+2019-06-20 15:50:16.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:16
+2019-06-20 15:50:21.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:21
+2019-06-20 15:50:26.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:26
+2019-06-20 15:50:31.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:31
+2019-06-20 15:50:36.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:36
+2019-06-20 15:50:41.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:41
+2019-06-20 15:50:46.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:46
+2019-06-20 15:50:51.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:51
+2019-06-20 15:50:56.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:50:56
+2019-06-20 15:51:01.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:01
+2019-06-20 15:51:06.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:06
+2019-06-20 15:51:07.625 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Demo Service, managementUrl=http://10.0.75.1:9898/actuator, healthUrl=http://10.0.75.1:9898/actuator/health, serviceUrl=http://10.0.75.1:9898/) at spring-boot-admin ([http://localhost:8989/instances]): I/O error on POST request for "http://localhost:8989/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-06-20 15:51:11.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:11
+2019-06-20 15:51:16.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:16
+2019-06-20 15:51:21.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:21
+2019-06-20 15:51:26.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:26
+2019-06-20 15:51:31.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:31
+2019-06-20 15:51:36.570 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:36
+2019-06-20 15:51:41.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:41
+2019-06-20 15:51:46.569 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:46
+2019-06-20 15:51:51.571 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:51:51
+2019-06-20 15:56:36.759 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-I4PIC4R with PID 280928 (C:\dev\git\spring-boot-admin-ui-custom\client\build\classes\java\main started by Administrator in C:\dev\git\spring-boot-admin-ui-custom\client)
+2019-06-20 15:56:36.761 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-20 15:56:37.623 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 15:56:37.647 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-20 15:56:38.118 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88f3a14d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 15:56:38.603 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+2019-06-20 15:56:38.616 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+2019-06-20 15:56:38.626 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-20 15:56:38.626 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 15:56:38.784 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-20 15:56:38.785 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1990 ms
+2019-06-20 15:56:39.207 [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-06-20 15:56:39.278 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-20 15:56:39.408 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-20 15:56:39.475 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 15:56:39.542 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 15:56:39.543 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-06-20 15:56:39.660 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 15:56:39.778 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 15:56:39.987 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@679d0be8'
+2019-06-20 15:56:39.989 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 15:56:40.243 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 15:56:40.291 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 15:56:40.607 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-06-20 15:56:40.748 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-06-20 15:56:40.775 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2019-06-20 15:56:40.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:56:40
+2019-06-20 15:56:40.844 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+2019-06-20 15:56:40.874 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+2019-06-20 15:56:40.876 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.532 seconds (JVM running for 4.861)
+2019-06-20 15:56:41.763 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 8965ae9e2966
+2019-06-20 15:56:41.798 [http-nio-9898-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 15:56:41.799 [http-nio-9898-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-06-20 15:56:41.806 [http-nio-9898-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-06-20 15:56:45.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:56:45
+2019-06-20 15:56:50.843 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:56:50
+2019-06-20 15:56:55.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:56:55
+2019-06-20 15:57:00.843 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:00
+2019-06-20 15:57:05.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:05
+2019-06-20 15:57:10.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:10
+2019-06-20 15:57:15.843 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:15
+2019-06-20 15:57:20.843 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:20
+2019-06-20 15:57:25.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:25
+2019-06-20 15:57:30.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:30
+2019-06-20 15:57:35.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:35
+2019-06-20 15:57:40.843 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:40
+2019-06-20 15:57:45.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:45
+2019-06-20 15:57:50.842 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:50
+2019-06-20 15:57:55.843 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 15:57:55
+2019-06-20 16:04:54.755 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-I4PIC4R with PID 3924 (C:\dev\git\spring-boot-admin-ui-custom\client\build\classes\java\main started by Administrator in C:\dev\git\spring-boot-admin-ui-custom\client)
+2019-06-20 16:04:54.759 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-06-20 16:04:58.455 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-20 16:04:58.513 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2019-06-20 16:05:00.705 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9a84e79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-20 16:05:04.679 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+2019-06-20 16:05:04.946 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+2019-06-20 16:05:04.982 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-20 16:05:04.982 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-20 16:05:06.892 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-20 16:05:06.892 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12069 ms
+2019-06-20 16:05:08.064 [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-06-20 16:05:08.239 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-20 16:05:08.580 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-20 16:05:08.826 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-20 16:05:09.026 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-20 16:05:09.028 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-06-20 16:05:09.352 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-20 16:05:09.653 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-06-20 16:05:10.247 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2db461b5'
+2019-06-20 16:05:10.254 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-20 16:05:10.791 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-20 16:05:10.887 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-20 16:05:11.262 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-06-20 16:05:11.450 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-06-20 16:05:11.483 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2019-06-20 16:05:11.658 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+2019-06-20 16:05:11.712 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+2019-06-20 16:05:11.718 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:11
+2019-06-20 16:05:11.724 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 17.726 seconds (JVM running for 22.749)
+2019-06-20 16:05:13.100 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 8965ae9e2966
+2019-06-20 16:05:13.163 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-20 16:05:13.164 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-06-20 16:05:13.177 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-06-20 16:05:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:16
+2019-06-20 16:05:21.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:21
+2019-06-20 16:05:26.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:26
+2019-06-20 16:05:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:31
+2019-06-20 16:05:36.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:36
+2019-06-20 16:05:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:41
+2019-06-20 16:05:46.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:46
+2019-06-20 16:05:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:51
+2019-06-20 16:05:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:05:56
+2019-06-20 16:06:01.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:01
+2019-06-20 16:06:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:06
+2019-06-20 16:06:11.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:11
+2019-06-20 16:06:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:16
+2019-06-20 16:06:21.659 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:21
+2019-06-20 16:06:26.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:26
+2019-06-20 16:06:31.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:31
+2019-06-20 16:06:36.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:36
+2019-06-20 16:06:41.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:41
+2019-06-20 16:06:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:46
+2019-06-20 16:06:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:51
+2019-06-20 16:06:56.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:06:56
+2019-06-20 16:07:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:01
+2019-06-20 16:07:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:06
+2019-06-20 16:07:11.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:11
+2019-06-20 16:07:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:16
+2019-06-20 16:07:21.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:21
+2019-06-20 16:07:26.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:26
+2019-06-20 16:07:31.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:31
+2019-06-20 16:07:36.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:36
+2019-06-20 16:07:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:41
+2019-06-20 16:07:46.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:46
+2019-06-20 16:07:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:51
+2019-06-20 16:07:56.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:07:56
+2019-06-20 16:08:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:01
+2019-06-20 16:08:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:06
+2019-06-20 16:08:11.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:11
+2019-06-20 16:08:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:16
+2019-06-20 16:08:21.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:21
+2019-06-20 16:08:26.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:26
+2019-06-20 16:08:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:31
+2019-06-20 16:08:36.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:36
+2019-06-20 16:08:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:41
+2019-06-20 16:08:46.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:46
+2019-06-20 16:08:51.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:51
+2019-06-20 16:08:52.792 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Demo Service, managementUrl=http://10.0.75.1:9898/actuator, healthUrl=http://10.0.75.1:9898/actuator/health, serviceUrl=http://10.0.75.1:9898/) at spring-boot-admin ([http://localhost:8989/instances]): I/O error on POST request for "http://localhost:8989/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2019-06-20 16:08:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:08:56
+2019-06-20 16:09:01.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:01
+2019-06-20 16:09:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:06
+2019-06-20 16:09:11.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:11
+2019-06-20 16:09:16.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:16
+2019-06-20 16:09:21.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:21
+2019-06-20 16:09:26.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:26
+2019-06-20 16:09:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:31
+2019-06-20 16:09:36.654 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:36
+2019-06-20 16:09:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:41
+2019-06-20 16:09:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:46
+2019-06-20 16:09:51.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:51
+2019-06-20 16:09:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:09:56
+2019-06-20 16:10:01.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:01
+2019-06-20 16:10:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:06
+2019-06-20 16:10:11.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:11
+2019-06-20 16:10:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:16
+2019-06-20 16:10:21.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:21
+2019-06-20 16:10:26.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:26
+2019-06-20 16:10:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:31
+2019-06-20 16:10:36.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:36
+2019-06-20 16:10:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:41
+2019-06-20 16:10:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:46
+2019-06-20 16:10:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:51
+2019-06-20 16:10:56.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:10:56
+2019-06-20 16:11:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:01
+2019-06-20 16:11:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:06
+2019-06-20 16:11:11.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:11
+2019-06-20 16:11:16.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:16
+2019-06-20 16:11:21.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:21
+2019-06-20 16:11:26.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:26
+2019-06-20 16:11:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:31
+2019-06-20 16:11:36.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:36
+2019-06-20 16:11:41.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:41
+2019-06-20 16:11:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:46
+2019-06-20 16:11:51.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:51
+2019-06-20 16:11:56.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:11:56
+2019-06-20 16:12:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:01
+2019-06-20 16:12:06.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:06
+2019-06-20 16:12:11.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:11
+2019-06-20 16:12:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:16
+2019-06-20 16:12:21.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:21
+2019-06-20 16:12:26.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:26
+2019-06-20 16:12:31.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:31
+2019-06-20 16:12:36.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:36
+2019-06-20 16:12:41.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:41
+2019-06-20 16:12:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:46
+2019-06-20 16:12:51.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:51
+2019-06-20 16:12:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:12:56
+2019-06-20 16:13:01.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:01
+2019-06-20 16:13:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:06
+2019-06-20 16:13:11.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:11
+2019-06-20 16:13:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:16
+2019-06-20 16:13:21.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:21
+2019-06-20 16:13:26.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:26
+2019-06-20 16:13:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:31
+2019-06-20 16:13:36.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:36
+2019-06-20 16:13:41.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:41
+2019-06-20 16:13:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:46
+2019-06-20 16:13:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:51
+2019-06-20 16:13:56.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:13:56
+2019-06-20 16:14:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:01
+2019-06-20 16:14:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:06
+2019-06-20 16:14:11.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:11
+2019-06-20 16:14:16.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:16
+2019-06-20 16:14:21.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:21
+2019-06-20 16:14:26.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:26
+2019-06-20 16:14:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:31
+2019-06-20 16:14:36.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:36
+2019-06-20 16:14:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:41
+2019-06-20 16:14:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:46
+2019-06-20 16:14:51.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:51
+2019-06-20 16:14:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:14:56
+2019-06-20 16:15:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:01
+2019-06-20 16:15:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:06
+2019-06-20 16:15:11.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:11
+2019-06-20 16:15:16.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:16
+2019-06-20 16:15:21.657 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:21
+2019-06-20 16:15:26.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:26
+2019-06-20 16:15:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:31
+2019-06-20 16:15:36.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:36
+2019-06-20 16:15:41.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:41
+2019-06-20 16:15:46.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:46
+2019-06-20 16:15:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:51
+2019-06-20 16:15:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:15:56
+2019-06-20 16:16:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:01
+2019-06-20 16:16:06.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:06
+2019-06-20 16:16:11.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:11
+2019-06-20 16:16:16.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:16
+2019-06-20 16:16:21.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:21
+2019-06-20 16:16:26.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:26
+2019-06-20 16:16:31.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:31
+2019-06-20 16:16:36.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:36
+2019-06-20 16:16:41.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:41
+2019-06-20 16:16:46.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:46
+2019-06-20 16:16:51.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:51
+2019-06-20 16:16:56.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:16:56
+2019-06-20 16:17:01.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:01
+2019-06-20 16:17:06.655 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:06
+2019-06-20 16:17:11.656 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:11
+2019-06-20 16:17:19.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:19
+2019-06-20 16:17:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:24
+2019-06-20 16:17:29.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:29
+2019-06-20 16:17:34.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:34
+2019-06-20 16:17:39.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:39
+2019-06-20 16:17:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:44
+2019-06-20 16:17:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:49
+2019-06-20 16:17:54.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:54
+2019-06-20 16:17:59.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:17:59
+2019-06-20 16:18:04.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:04
+2019-06-20 16:18:09.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:09
+2019-06-20 16:18:14.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:14
+2019-06-20 16:18:19.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:19
+2019-06-20 16:18:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:24
+2019-06-20 16:18:29.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:29
+2019-06-20 16:18:34.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:34
+2019-06-20 16:18:39.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:39
+2019-06-20 16:18:44.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:44
+2019-06-20 16:18:49.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:49
+2019-06-20 16:18:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:54
+2019-06-20 16:18:59.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:18:59
+2019-06-20 16:19:04.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:04
+2019-06-20 16:19:09.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:09
+2019-06-20 16:19:14.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:14
+2019-06-20 16:19:19.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:19
+2019-06-20 16:19:24.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:24
+2019-06-20 16:19:29.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:29
+2019-06-20 16:19:34.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:34
+2019-06-20 16:19:39.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:39
+2019-06-20 16:19:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:44
+2019-06-20 16:19:49.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:49
+2019-06-20 16:19:54.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:54
+2019-06-20 16:19:59.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:19:59
+2019-06-20 16:20:04.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:04
+2019-06-20 16:20:09.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:09
+2019-06-20 16:20:14.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:14
+2019-06-20 16:20:19.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:19
+2019-06-20 16:20:24.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:24
+2019-06-20 16:20:29.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:29
+2019-06-20 16:20:34.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:34
+2019-06-20 16:20:39.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:39
+2019-06-20 16:20:44.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:44
+2019-06-20 16:20:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:49
+2019-06-20 16:20:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:54
+2019-06-20 16:20:59.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:20:59
+2019-06-20 16:21:04.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:04
+2019-06-20 16:21:09.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:09
+2019-06-20 16:21:14.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:14
+2019-06-20 16:21:19.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:19
+2019-06-20 16:21:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:24
+2019-06-20 16:21:29.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:29
+2019-06-20 16:21:34.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:34
+2019-06-20 16:21:39.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:39
+2019-06-20 16:21:44.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:44
+2019-06-20 16:21:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:49
+2019-06-20 16:21:54.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:54
+2019-06-20 16:21:59.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:21:59
+2019-06-20 16:22:04.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:04
+2019-06-20 16:22:09.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:09
+2019-06-20 16:22:14.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:14
+2019-06-20 16:22:19.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:19
+2019-06-20 16:22:24.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:24
+2019-06-20 16:22:29.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:29
+2019-06-20 16:22:34.783 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:34
+2019-06-20 16:22:39.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:39
+2019-06-20 16:22:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:44
+2019-06-20 16:22:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:49
+2019-06-20 16:22:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:54
+2019-06-20 16:22:59.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:22:59
+2019-06-20 16:23:04.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:04
+2019-06-20 16:23:09.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:09
+2019-06-20 16:23:14.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:14
+2019-06-20 16:23:19.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:19
+2019-06-20 16:23:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:24
+2019-06-20 16:23:29.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:29
+2019-06-20 16:23:34.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:34
+2019-06-20 16:23:39.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:39
+2019-06-20 16:23:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:44
+2019-06-20 16:23:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:49
+2019-06-20 16:23:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:54
+2019-06-20 16:23:59.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:23:59
+2019-06-20 16:24:04.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:04
+2019-06-20 16:24:09.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:09
+2019-06-20 16:24:14.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:14
+2019-06-20 16:24:19.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:19
+2019-06-20 16:24:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:24
+2019-06-20 16:24:29.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:29
+2019-06-20 16:24:34.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:34
+2019-06-20 16:24:39.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:39
+2019-06-20 16:24:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:44
+2019-06-20 16:24:49.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:49
+2019-06-20 16:24:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:54
+2019-06-20 16:24:59.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:24:59
+2019-06-20 16:25:04.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:04
+2019-06-20 16:25:09.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:09
+2019-06-20 16:25:14.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:14
+2019-06-20 16:25:19.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:19
+2019-06-20 16:25:24.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:24
+2019-06-20 16:25:29.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:29
+2019-06-20 16:25:34.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:34
+2019-06-20 16:25:39.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:39
+2019-06-20 16:25:44.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:44
+2019-06-20 16:25:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:49
+2019-06-20 16:25:54.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:54
+2019-06-20 16:25:59.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:25:59
+2019-06-20 16:26:04.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:04
+2019-06-20 16:26:09.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:09
+2019-06-20 16:26:14.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:14
+2019-06-20 16:26:19.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:19
+2019-06-20 16:26:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:24
+2019-06-20 16:26:29.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:29
+2019-06-20 16:26:34.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:34
+2019-06-20 16:26:39.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:39
+2019-06-20 16:26:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:44
+2019-06-20 16:26:49.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:49
+2019-06-20 16:26:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:54
+2019-06-20 16:26:59.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:26:59
+2019-06-20 16:27:04.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:04
+2019-06-20 16:27:09.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:09
+2019-06-20 16:27:14.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:14
+2019-06-20 16:27:19.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:19
+2019-06-20 16:27:24.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:24
+2019-06-20 16:27:29.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:29
+2019-06-20 16:27:34.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:34
+2019-06-20 16:27:39.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:39
+2019-06-20 16:27:44.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:44
+2019-06-20 16:27:49.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:49
+2019-06-20 16:27:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:54
+2019-06-20 16:27:59.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:27:59
+2019-06-20 16:28:04.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:04
+2019-06-20 16:28:09.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:09
+2019-06-20 16:28:14.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:14
+2019-06-20 16:28:19.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:19
+2019-06-20 16:28:24.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:24
+2019-06-20 16:28:29.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:29
+2019-06-20 16:28:34.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:34
+2019-06-20 16:28:39.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:39
+2019-06-20 16:28:44.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:44
+2019-06-20 16:28:49.780 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:49
+2019-06-20 16:28:54.779 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:54
+2019-06-20 16:28:59.778 [scheduling-1] INFO  c.example.demo.config.ScheduledTasks - The time is now 16:28:59

@@ -16,7 +16,7 @@
 
 <template>
   <div>
-    <h3>custom</h3>
+    <h3>custom dd</h3>
     <pre v-text="stringify(applications, null, 4)"/>
   </div>
 </template>
